@@ -33,3 +33,5 @@ Collection of software and scripts to aid in Android and iOS development. This r
     * `brew install zsh-syntax-highlighting`
     * `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
   * For more info go to https://gist.github.com/kevin-smets/8568070
+  * Result:
+  ![Screenshot of terminal](https://raw.githubusercontent.com/ReallyVasiliy/MobileDevelopmentSoft/master/terminal_screenshot.png)
