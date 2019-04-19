@@ -17,10 +17,6 @@ Collection of software and scripts to aid in Android and iOS development. This r
 * [iTerm2 + zsh + extensions](https://gist.github.com/kevin-smets/8568070)
   * `brew cask install iterm2`
   * Download [this theme](https://github.com/ReallyVasiliy/MobileDevelopmentSoft/blob/master/VasiliyTheme.itermcolors), or download themes from https://iterm2colorschemes.com/ 
-  * iTerm → preferences → profiles
-    * colors → color presets → import: select the theme
-    * colors → Turn on "Cursor guide" checkbox
-    * window → Columns: 160 Rows: 50
   * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
   * `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
   * Then edit your `~/.zshrc` and add:
@@ -28,6 +24,12 @@ Collection of software and scripts to aid in Android and iOS development. This r
     * `POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)`
   * Install [Meslo font](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
   * Install [this other font](https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf)
+  * iTerm → preferences → profiles
+    * Text → Change Font: select Meslo for Powerline
+    * colors → color presets → import: select the theme you downloaded
+    * colors → Turn on "Cursor guide" checkbox
+    * window → Columns: 160 Rows: 50
   * Add syntax highlighting:
     * `brew install zsh-syntax-highlighting`
     * `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+  * For more info go to https://gist.github.com/kevin-smets/8568070
