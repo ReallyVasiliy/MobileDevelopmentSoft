@@ -13,6 +13,7 @@ Collection of software and scripts to aid in Android and iOS development. This r
   * CMD+SHIFT+V: Pops up clipboard history. Use left/right arrow keys to navigate clipboard history
 * [Sourcetree](https://www.sourcetreeapp.com/): GUI for git (useful for staging changes, browsing git log)
 * [BBEdit](https://www.barebones.com/products/bbedit/): Text editor, with good regex support
+  * Add to ~/.zshrc: `alias bb='open -a /Applications/BBEdit.app'`
 * [XCode xip direct links](https://stackoverflow.com/a/10335943): Good SO answer listing all the releases in a clean way
 * [iTerm2 + zsh + extensions](https://gist.github.com/kevin-smets/8568070)
   * `brew cask install iterm2`
