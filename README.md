@@ -36,3 +36,7 @@ Collection of software and scripts to aid in Android and iOS development. This r
   * For more info go to https://gist.github.com/kevin-smets/8568070
   * Result:
   ![Screenshot of terminal](https://raw.githubusercontent.com/ReallyVasiliy/MobileDevelopmentSoft/master/terminal_screenshot.png)
+  
+  
+## Configuration (OSX)
+* `defaults write com.apple.finder AppleShowAllFiles YES`
