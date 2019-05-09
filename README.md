@@ -40,3 +40,8 @@ Collection of software and scripts to aid in Android and iOS development. This r
   
 ## Configuration (OSX)
 * `defaults write com.apple.finder AppleShowAllFiles YES`
+
+## Aliases
+* `alias bb='open -a /Applications/BBEdit.app'`
+* `alias zshrc="vi ~/.zshrc && source ~/.zshrc"`
+* `alias vs='open -a /Applications/Visual\ Studio\ Code.app'`
