@@ -33,6 +33,10 @@ Collection of software and scripts to aid in Android and iOS development. This r
   * Add syntax highlighting:
     * `brew install zsh-syntax-highlighting`
     * `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+  * Add `z` command to quickly jump to recent directories:
+    * git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+    * Edit `plugins` in `~/.zshrc` to add `zsh-z`. For example, `plugins=( git zsh-z )`
+    
   * For more info go to https://gist.github.com/kevin-smets/8568070
   * Result:
   ![Screenshot of terminal](https://raw.githubusercontent.com/ReallyVasiliy/MobileDevelopmentSoft/master/terminal_screenshot.png)
@@ -43,5 +47,4 @@ Collection of software and scripts to aid in Android and iOS development. This r
 
 ## Aliases
 * `alias bb='open -a /Applications/BBEdit.app'`
-* `alias zshrc="vi ~/.zshrc && source ~/.zshrc"`
 * `alias vs='open -a /Applications/Visual\ Studio\ Code.app'`
